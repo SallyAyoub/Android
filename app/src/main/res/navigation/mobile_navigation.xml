@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.birzeit.houserentals.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_post"
+        android:name="edu.birzeit.houserentals.ui.postproperties.PostpropertyFragment"
+        android:label="post a property"
+        tools:layout="@layout/fragment_postproperties" />
+    <fragment
+        android:id="@+id/nav_edit"
+        android:name="edu.birzeit.houserentals.ui.edit.EditpropertiesFragment"
+        android:label="Edit a property"
+        tools:layout="@layout/fragment_edit" />
+    <fragment
+        android:id="@+id/nav_tenant_history"
+        android:name="edu.birzeit.houserentals.ui.tenanthistory.TenantHistoryFragment"
+        android:label="tenanthistory"
+        tools:layout="@layout/fragment_tenanthistory" />
+    <fragment
+        android:id="@+id/nav_agency_history"
+        android:name="edu.birzeit.houserentals.ui.agencyhistory.AgencyHistoryFragment"
+        android:label="AgencyHistoryFragment"
+        tools:layout="@layout/fragment_agencyhistory" />
+    <fragment
+        android:id="@+id/nav_application_menu"
+        android:name="edu.birzeit.houserentals.ui.applicationmenu.ApplicationMenuFragment"
+        android:label="Application menu"
+        tools:layout="@layout/fragment_applicationmenu" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="edu.birzeit.houserentals.ui.profile.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="edu.birzeit.houserentals.ui.logout.LogoutFragment"
+        android:label="logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

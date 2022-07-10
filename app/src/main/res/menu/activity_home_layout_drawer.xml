@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_post"
+            android:icon="@drawable/ic_post"
+            android:title="Post a property" />
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/ic_edit"
+            android:title="edit a property" />
+        <item
+            android:id="@+id/nav_tenant_history"
+            android:icon="@drawable/ic_tenant_history"
+            android:title="tenant history" />
+        <item
+            android:id="@+id/nav_agency_history"
+            android:icon="@drawable/ic_agency_history"
+            android:title="agency history" />
+        <item
+            android:id="@+id/nav_application_menu"
+            android:icon="@drawable/ic_menu"
+            android:title="application menu" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="logout" />
+    </group>
+</menu>
